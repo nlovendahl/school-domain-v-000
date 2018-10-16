@@ -8,7 +8,7 @@ class School
   end
 
   def add_student(name, grade)
-    if ROSTER[grade] 
+    if ROSTER[grade] == true
       ROSTER[grade] << name
     else
       ROSTER[grade] = []
