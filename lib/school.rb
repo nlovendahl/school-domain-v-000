@@ -17,6 +17,6 @@ class School
   end
 
   def roster
-    ROSTER
+    ROSTER.sort
   end
 end
