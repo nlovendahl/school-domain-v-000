@@ -17,6 +17,10 @@ class School
   end
 
   def roster
+    ROSTER
+  end
+
+  def sort
     ROSTER.sort
   end
 end
