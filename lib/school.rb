@@ -9,4 +9,5 @@ class School
 
   def add_student(name, grade)
 
+  end
 end
