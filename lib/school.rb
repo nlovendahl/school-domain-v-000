@@ -14,7 +14,6 @@ class School
       roster[grade] = []
       roster[grade] << name
     end
-    ROSTER
   end
 
   def roster
