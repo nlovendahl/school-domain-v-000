@@ -1,6 +1,5 @@
 class School
 
-  attr_accessor
   attr_reader :name
   ROSTER = {}
 
@@ -12,4 +11,7 @@ class School
 
   end
 
+  def roster
+    ROSTER
+  end
 end
